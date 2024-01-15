@@ -1,1 +1,2 @@
 model_distilbert.pt filter=lfs diff=lfs merge=lfs -text
+model_XLNet.pt filter=lfs diff=lfs merge=lfs -text
