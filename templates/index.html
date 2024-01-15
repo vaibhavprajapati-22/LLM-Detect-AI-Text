@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Generated Text Detector</title>
+    <link rel="stylesheet" href="../static/style/style.css">
+</head>
+
+<body>
+    <div>
+        <img id="logo" src="../static/images/logo.png" onclick="reloadPage()">
+        <h2 id="logo_name" onclick="reloadPage()">AI Generated Text Detector</h2>
+    </div>
+    <h1 id="text">
+        Detect AI Generated Text
+    </h1>
+
+    <form>
+        <label id="label" for="userInput">Paste your content below, and we'll tell you if any of it has been AI-generated.</label>
+        <textarea type="text" id="userInput" name="text" placeholder="Type here..." spellcheck="false"></textarea>
+        <br>
+        <button id="check" class="Check"type="button" onclick="checkContent()">Check</button>
+    </form>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <p id="modalResult"></p>
+            <button class="close" onclick="closeModal()">Close</button>
+        </div>
+    </div>
+    
+    <script src="../static/script/script.js"></script>
+</body>
+</html>

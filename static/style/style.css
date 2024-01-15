@@ -1,0 +1,104 @@
+body{
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    padding: 0;
+}
+#logo{
+    width: 4rem;
+    height: 4rem;
+    cursor: pointer;
+}
+#logo_name{
+    color: antiquewhite;
+    margin-left: 5rem;
+    margin-top: -3rem;
+    font-family: 'Franklin Gothic Medium';
+    cursor: pointer;
+}
+#text{
+    color: #BEB8ED;
+    text-align: center;
+    margin-top: 4rem;
+    font-family: 'Trebuchet MS';
+    font-weight: bolder;
+    font-size: 5rem;
+}
+#label{
+    color: #BEB8ED;
+    text-align: center;
+    font-family: Arial;
+    font-size: 1.45rem;
+}
+label, input, button {
+    display: block;
+    margin-bottom: 2rem;
+}
+#userInput {
+    width: 50rem;
+    height: 20rem;
+    margin: auto;
+    display: block;
+    text-align: start;
+    color: white;
+    background-color: #242f8d6f;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    resize: none; 
+    overflow-y: auto; 
+    font-family: sans-serif;
+}
+#userInput::-webkit-scrollbar {
+    width: 12px;
+}
+#userInput::-webkit-scrollbar-thumb {
+    background-color: #3e50f1; 
+    border-radius: 6px; 
+}
+#userInput::-webkit-scrollbar-track {
+    background-color: #131D76; 
+}
+.Check{
+    margin: auto;
+    text-align: center;
+    padding: 10px 20px; 
+    font-size: 100%;
+    background-color: #131D76; 
+    color: #FFFFFF; 
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+.Check:hover{
+    background-color: #3e50f1; 
+}
+.modal {
+    display: none;
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20rem;
+    background-color: #242f8d;
+    border: 2px solid #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    text-align: center;
+    color: white;
+}
+.close{
+    margin: auto;
+    text-align: center;
+    padding: 10px 20px; 
+    font-size: 100%;
+    background-color: #131D76; 
+    color: #FFFFFF; 
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+.close:hover{
+    background-color: #3e50f1; 
+} 
