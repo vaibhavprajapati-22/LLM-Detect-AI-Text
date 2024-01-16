@@ -5,7 +5,7 @@ Welcome to the "LLM-Detect AI Text" project! In this repository, we present solu
 To get started, follow these steps:
 1. Clone the repository:
   ```sh
-  git clone https://github.com/your-username/LLM-Detect-AI-Text.git
+  git clone https://github.com/vaibhavprajapati-22/LLM-Detect-AI-Text.git
   cd LLM-Detect-AI-Text
   ```
 2. Get Large file
