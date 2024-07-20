@@ -4,6 +4,9 @@ import torch
 import torch.nn.functional as F
 from nltk.corpus import stopwords
 import re
+import nltk
+
+nltk.download('stopwords')
 
 stop_words = set(stopwords.words('english'))
 
